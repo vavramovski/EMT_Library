@@ -11,7 +11,7 @@
     <modules>
         <module>shared_kernel</module>
         <module>book_catalog</module>
-        <module>orger_management</module>
+        <module>order_management</module>
         <module>users</module>
     </modules>
 

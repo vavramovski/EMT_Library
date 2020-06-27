@@ -1,10 +1,10 @@
-package mk.ukim.finki.emt.library.orger_management;
+package mk.ukim.finki.emt.library.order_management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrgerManagementApplicationTests {
+class OrderManagementApplicationTests {
 
     @Test
     void contextLoads() {
