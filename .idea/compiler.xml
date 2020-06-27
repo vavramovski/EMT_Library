@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orger_management" />
+        <module name="users" />
+        <module name="book_catalog" />
+        <module name="shared_kernel" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Library-EMT" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Library-EMT" options="-parameters" />
+      <module name="book_catalog" options="-parameters" />
+      <module name="orger_management" options="-parameters" />
+      <module name="shared_kernel" options="-parameters" />
+      <module name="users" options="-parameters" />
+    </option>
+  </component>
+</project>
