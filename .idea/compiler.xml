@@ -10,6 +10,7 @@
         <module name="users" />
         <module name="book_catalog" />
         <module name="shared_kernel" />
+        <module name="emt-product-ordering" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

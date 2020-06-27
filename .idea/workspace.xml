@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ce214b-1b85-4304-9e8f-f92a7d6d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/base/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orger_management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orger_management/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared_kernel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared_kernel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593263385592</updated>
-      <workItem from="1593263388045" duration="1327000" />
+      <workItem from="1593263388045" duration="2261000" />
     </task>
     <servers />
   </component>
@@ -91,6 +94,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593265422051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593265422051" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593263877488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
