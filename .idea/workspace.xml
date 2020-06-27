@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87ce214b-1b85-4304-9e8f-f92a7d6d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orger_management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orger_management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared_kernel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared_kernel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="87ce214b-1b85-4304-9e8f-f92a7d6d62d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593263385592</updated>
-      <workItem from="1593263388045" duration="2261000" />
+      <workItem from="1593263388045" duration="2581000" />
     </task>
     <servers />
   </component>
