@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ce214b-1b85-4304-9e8f-f92a7d6d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/DataCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSampleId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookSamplesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/SharedConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/rent/RentState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/author/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/author/AuthorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/fullName/FullName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226/storage_v2/_src_/database/emt_library.SMj5hg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226/storage_v2/_src_/database/emt_library.SMj5hg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/BookCatalogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/BookCatalogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_management/src/main/java/mk/ukim/finki/emt/library/order_management/OrgerManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_management/src/main/java/mk/ukim/finki/emt/library/order_management/OrderManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/DataCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/DataCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookId.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/book/BookId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/bookSample/BookSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSampleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/bookSample/BookSampleId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookSamplesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookSamplesRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +156,7 @@
       <updated>1593263385592</updated>
       <workItem from="1593263388045" duration="4256000" />
       <workItem from="1593272654720" duration="603000" />
-      <workItem from="1593354531076" duration="5010000" />
+      <workItem from="1593354531076" duration="13712000" />
     </task>
     <servers />
   </component>
@@ -178,58 +176,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593265422051" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593358263274">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593373791554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593358263274" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1593359486867">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593373791554" />
+    <state x="626" y="118" key="CommitChangelistDialog2" timestamp="1593359663705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1593359486866">
+    <state x="626" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593359663705" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486866" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1593359486866">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486866" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593378244820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1593359486867">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593359486867" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1593378244821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1593264682783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,10 +240,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="224" width="680" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593266616073" />
-    <state width="433" height="489" key="javadoc.popup.new" timestamp="1593358575149">
+    <state width="433" height="489" key="javadoc.popup.new" timestamp="1593374008220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="433" height="489" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1593358575149" />
+    <state width="433" height="489" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1593374008220" />
     <state x="428" y="242" key="new project wizard" timestamp="1593263796113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

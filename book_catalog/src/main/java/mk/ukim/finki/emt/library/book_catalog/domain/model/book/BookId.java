@@ -1,4 +1,4 @@
-package mk.ukim.finki.emt.library.book_catalog.domain.model;
+package mk.ukim.finki.emt.library.book_catalog.domain.model.book;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import mk.ukim.finki.emt.library.shared_kernel.domain.base.DomainObjectId;
@@ -6,14 +6,14 @@ import mk.ukim.finki.emt.library.shared_kernel.domain.base.DomainObjectId;
 import javax.persistence.Embeddable;
 
 @Embeddable
-public class BookSampleId extends DomainObjectId {
+public class BookId extends DomainObjectId {
 
-    public BookSampleId() {
+    public BookId() {
         super(DomainObjectId.randomId(BookId.class).toString());
     }
 
     @JsonCreator
-    public BookSampleId(String id) {
+    public BookId(String id) {
         super(id);
     }
 

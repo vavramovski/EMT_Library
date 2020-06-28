@@ -789,7 +789,7 @@ true posixrules
     <database id="2" parent="1" name="emt_library">
       <ObjectId>81961</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1341</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1367</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -854,7 +854,7 @@ true posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1342</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1368</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="18" parent="2" name="heap">
@@ -929,11 +929,176 @@ true posixrules
       <Owner>postgres</Owner>
       <StateNumber>1340</StateNumber>
     </table>
-    <column id="31" parent="30" name="liki">
+    <table id="31" parent="17" name="book_samples">
+      <ObjectId>82001</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1359</StateNumber>
+    </table>
+    <table id="32" parent="17" name="books">
+      <ObjectId>82006</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1360</StateNumber>
+    </table>
+    <table id="33" parent="17" name="books_book_samples">
+      <ObjectId>82014</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1359</StateNumber>
+    </table>
+    <column id="34" parent="30" name="liki">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>1340</StateNumber>
       <TypeId>1043</TypeId>
     </column>
+    <column id="35" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1355</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="36" parent="31" name="deleted">
+      <Position>2</Position>
+      <DataType>boolean|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1355</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="37" parent="31" name="is_rented">
+      <Position>3</Position>
+      <DataType>boolean|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1355</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="38" parent="31" name="version">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>1355</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="39" parent="31" name="book_samples_pkey">
+      <ObjectId>82004</ObjectId>
+      <StateNumber>1355</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="40" parent="31" name="book_samples_pkey">
+      <ObjectId>82005</ObjectId>
+      <StateNumber>1355</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>book_samples_pkey</UnderlyingIndexName>
+    </key>
+    <column id="41" parent="32" name="id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1356</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="42" parent="32" name="deleted">
+      <Position>2</Position>
+      <DataType>boolean|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1356</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="43" parent="32" name="pages">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1356</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="44" parent="32" name="title">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1356</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="32" name="version">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>1356</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="46" parent="32" name="books_pkey">
+      <ObjectId>82012</ObjectId>
+      <StateNumber>1356</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="47" parent="32" name="books_pkey">
+      <ObjectId>82013</ObjectId>
+      <StateNumber>1356</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>books_pkey</UnderlyingIndexName>
+    </key>
+    <column id="48" parent="33" name="book_id">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1357</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="49" parent="33" name="book_samples_id">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1357</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="50" parent="33" name="books_book_samples_pkey">
+      <ObjectId>82020</ObjectId>
+      <StateNumber>1357</StateNumber>
+      <ColNames>book_id
+book_samples_id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="51" parent="33" name="uk_kpv8tcurlvxkthtem304cqj4k">
+      <ObjectId>82022</ObjectId>
+      <StateNumber>1358</StateNumber>
+      <ColNames>book_samples_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="33" name="books_book_samples_pkey">
+      <ObjectId>82021</ObjectId>
+      <StateNumber>1357</StateNumber>
+      <ColNames>book_id
+book_samples_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>books_book_samples_pkey</UnderlyingIndexName>
+    </key>
+    <key id="53" parent="33" name="uk_kpv8tcurlvxkthtem304cqj4k">
+      <ObjectId>82023</ObjectId>
+      <StateNumber>1358</StateNumber>
+      <ColNames>book_samples_id</ColNames>
+      <UnderlyingIndexName>uk_kpv8tcurlvxkthtem304cqj4k</UnderlyingIndexName>
+    </key>
+    <foreign-key id="54" parent="33" name="fk6tq4jxtfxt3iq50v5ob32cn9i">
+      <ObjectId>82029</ObjectId>
+      <StateNumber>1360</StateNumber>
+      <ColNames>book_id</ColNames>
+      <RefTableId>82006</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>books</RefTableName>
+      <RefKeyName>books_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="55" parent="33" name="fkno1yr2p6lihrlglsdx3dk5art">
+      <ObjectId>82024</ObjectId>
+      <StateNumber>1359</StateNumber>
+      <ColNames>book_samples_id</ColNames>
+      <RefTableId>82001</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>book_samples</RefTableName>
+      <RefKeyName>book_samples_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>

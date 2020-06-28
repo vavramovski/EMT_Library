@@ -1,13 +1,11 @@
-package mk.ukim.finki.emt.library.book_catalog.domain.model;
+package mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample;
 
+import mk.ukim.finki.emt.library.book_catalog.domain.model.book.BookId;
 import mk.ukim.finki.emt.library.shared_kernel.domain.base.AbstractEntity;
 import mk.ukim.finki.emt.library.shared_kernel.domain.rent.RentState;
 import org.hibernate.annotations.Where;
 
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.Version;
+import javax.persistence.*;
 
 @Entity
 @Table(name="book_samples")
@@ -16,6 +14,10 @@ public class BookSample extends AbstractEntity<BookSampleId> {
     @Version
     private Long version;
 
+    @Embedded
+    @AttributeOverride(name="id",column = @Column(name="book_id",nullable = false))
+    private BookId bookId;
+
     private boolean deleted;
 
     @Embedded
@@ -23,10 +25,11 @@ public class BookSample extends AbstractEntity<BookSampleId> {
 
     public BookSample(){}
 
-    public BookSample(BookSampleId id, boolean deleted, RentState rentState) {
+    public BookSample(BookSampleId id, boolean deleted, RentState rentState, BookId bookId) {
         super(id);
         this.deleted = deleted;
         this.rentState = rentState;
+        this.bookId = bookId;
     }
 
     public void makeRent(){
@@ -41,5 +44,8 @@ public class BookSample extends AbstractEntity<BookSampleId> {
         rentState = RentState.returnedRent();
     }
 
+    public void delete(){
+        deleted=true;
+    }
 
 }
