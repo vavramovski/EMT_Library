@@ -1,37 +1,57 @@
-/*
 package mk.ukim.finki.emt.library.book_catalog.domain.model;
 
+
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import mk.ukim.finki.emt.library.shared_kernel.domain.base.AbstractEntity;
+import org.hibernate.annotations.Where;
+
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
-@Table(name="product")
-public class Book extends AbstractEntity<ProductId> {
+@Table(name="books")
+@Where(clause = "deleted=false")
+public class Book extends AbstractEntity<BookId> {
 
     @Version
     private Long version;
 
-    @Column(name = "name", nullable = false)
-    private String name;
+    private boolean deleted;
 
-    @Embedded
-    @AttributeOverrides({
-            @AttributeOverride(name = "amount", column = @Column(name = "amount")),
-            @AttributeOverride(name = "currency", column = @Column(name = "currency"))
-    })
 
-    private int quantity;
+    private String title;
 
-    @Column(name = "deleted", nullable = false)
-    private boolean deleted = false;
+    private int pages;
 
-    public Product() {
+
+    public Book() {
 
     }
 
-    public Product(ProductId productId, String name, Money price, int quantity) {
-        super(productId);
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
+    public Book(BookId id, String title, int pages, Set<BookSample> bookSamples) {
+        super(id);
+        this.title=title;
+        this.pages=pages;
+        deleted = false;
+        this.bookSamples = bookSamples;
     }
-}*/
+
+    //todo: dodadi vrska do [BookSample]
+
+    @OneToMany
+    private Set<BookSample> bookSamples;
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    @JsonProperty
+    public String getTitle() {
+        return title;
+    }
+
+    public int getPages() {
+        return pages;
+    }
+}
