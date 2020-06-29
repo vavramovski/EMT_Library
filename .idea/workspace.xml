@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="87ce214b-1b85-4304-9e8f-f92a7d6d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/author/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/author/AuthorId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/AuthorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/fullName/FullName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226/storage_v2/_src_/database/emt_library.SMj5hg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3cf48c46-7235-4f14-b099-89f712810226/storage_v2/_src_/database/emt_library.SMj5hg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/DataCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/DataCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookId.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/book/BookId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/bookSample/BookSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/BookSampleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/model/bookSample/BookSampleId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookSamplesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book_catalog/src/main/java/mk/ukim/finki/emt/library/book_catalog/domain/repository/BookSamplesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/fullName/FullName.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared_kernel/src/main/java/mk/ukim/finki/emt/library/shared_kernel/domain/fullName/FullName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/mk/ukim/finki/emt/library/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/mk/ukim/finki/emt/library/users/UsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +63,21 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mk.ukim.finki.emt.library.users" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mk.ukim.finki.emt.library.users.domain" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="mk.ukim.finki.emt.library.book_catalog.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BookCatalogApplication">
+  <component name="RunManager" selected="Spring Boot.UsersApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="order_management" />
       <option name="VM_PARAMETERS" />
@@ -163,6 +180,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1593357887358">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -176,46 +205,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593265422051" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593373791554">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593446585649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593373791554" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593446585649" />
+    <state x="736" y="389" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593447125081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="389" width="447" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1593447125081" />
     <state x="626" y="118" key="CommitChangelistDialog2" timestamp="1593359663705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593359663705" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593378244821">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1593378244820">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244820" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1593378244821">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1593466410661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593466410661" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1593378244821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,10 +265,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593378244821" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1593264682783">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1593444725311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593264682783" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593444725311" />
+    <state x="60" y="168" key="SettingsEditor" timestamp="1593446036184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="60" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593446036184" />
+    <state x="681" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593445277073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="349" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593445277073" />
     <state x="667" y="224" width="680" height="592" key="find.popup" timestamp="1593266616073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -248,5 +289,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="428" y="242" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593263796113" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1593447101239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593447101239" />
   </component>
 </project>
