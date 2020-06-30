@@ -1,12 +1,9 @@
 package mk.ukim.finki.emt.library.order_management.domain.model.rent;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import mk.ukim.finki.emt.library.order_management.domain.model.bookSample.BookSampleId;
 import mk.ukim.finki.emt.library.order_management.domain.model.user.UserId;
 import mk.ukim.finki.emt.library.shared_kernel.domain.base.AbstractEntity;
-import mk.ukim.finki.emt.library.shared_kernel.domain.rent.RentState;
-import org.springframework.lang.NonNull;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -50,16 +47,12 @@ public class Rent extends AbstractEntity<RentId> {
         this.userId = userId;
     }
 
-    public void setEndDate(LocalDate endDate) {
-        this.endDate = endDate;
-    }
-
-    public void endRent(){
-        if (!rentStatus.equals(RentStatus.ACTIVE)){
+    public void endRent() {
+        if (!rentStatus.equals(RentStatus.ACTIVE)) {
             throw new IllegalArgumentException("The rent is already done.");
         }
         endDate = LocalDate.now();
-        rentStatus = RentStatus.DONE;
+        rentStatus = RentStatus.FINISHED;
     }
 
 }
