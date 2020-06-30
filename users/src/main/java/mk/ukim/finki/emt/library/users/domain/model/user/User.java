@@ -1,6 +1,6 @@
 package mk.ukim.finki.emt.library.users.domain.model.user;
 
-import mk.ukim.finki.emt.library.shared_kernel.domain.address.Address;
+import mk.ukim.finki.emt.library.shared_kernel.domain.geo.Address;
 import mk.ukim.finki.emt.library.shared_kernel.domain.base.AbstractEntity;
 import mk.ukim.finki.emt.library.shared_kernel.domain.fullName.FullName;
 import org.hibernate.annotations.Where;

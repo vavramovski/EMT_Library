@@ -1,7 +1,7 @@
 package mk.ukim.finki.emt.library.users;
 
 import lombok.RequiredArgsConstructor;
-import mk.ukim.finki.emt.library.shared_kernel.domain.address.Address;
+import mk.ukim.finki.emt.library.shared_kernel.domain.geo.Address;
 import mk.ukim.finki.emt.library.shared_kernel.domain.fullName.FullName;
 import mk.ukim.finki.emt.library.users.domain.model.user.User;
 import mk.ukim.finki.emt.library.users.domain.model.user.UserId;

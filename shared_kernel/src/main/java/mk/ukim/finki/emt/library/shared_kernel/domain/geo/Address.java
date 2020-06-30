@@ -1,4 +1,4 @@
-package mk.ukim.finki.emt.library.shared_kernel.domain.address;
+package mk.ukim.finki.emt.library.shared_kernel.domain.geo;
 
 import lombok.Getter;
 import lombok.NonNull;
