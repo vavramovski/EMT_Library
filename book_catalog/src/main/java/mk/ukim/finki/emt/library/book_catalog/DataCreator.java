@@ -7,6 +7,7 @@ import mk.ukim.finki.emt.library.book_catalog.domain.model.book.Book;
 import mk.ukim.finki.emt.library.book_catalog.domain.model.book.BookId;
 import mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample.BookSample;
 import mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample.BookSampleId;
+import mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample.BookSampleState;
 import mk.ukim.finki.emt.library.book_catalog.domain.repository.AuthorRepository;
 import mk.ukim.finki.emt.library.book_catalog.domain.repository.BookRepository;
 import mk.ukim.finki.emt.library.book_catalog.domain.repository.BookSamplesRepository;
@@ -42,11 +43,11 @@ public class DataCreator {
         authorRepository.save(author1);
         authorRepository.save(author2);
 
-        bookSamples1.add(new BookSample(new BookSampleId("A1"),false,RentState.valueOf(false),new BookId("1")));
-        bookSamples1.add(new BookSample(new BookSampleId("A2"),false,RentState.valueOf(false),new BookId("1")));
-        bookSamples1.add(new BookSample(new BookSampleId("A3"),false,RentState.valueOf(false),new BookId("1")));
-        bookSamples2.add(new BookSample(new BookSampleId("B1"),false,RentState.valueOf(false),new BookId("2")));
-        bookSamples2.add(new BookSample(new BookSampleId("B2"),false,RentState.valueOf(false),new BookId("2")));
+        bookSamples1.add(new BookSample(new BookSampleId("A1"),false, BookSampleState.FREE,new BookId("1")));
+        bookSamples1.add(new BookSample(new BookSampleId("A2"),false,BookSampleState.FREE,new BookId("1")));
+        bookSamples1.add(new BookSample(new BookSampleId("A3"),false,BookSampleState.FREE,new BookId("1")));
+        bookSamples2.add(new BookSample(new BookSampleId("B1"),false,BookSampleState.FREE,new BookId("2")));
+        bookSamples2.add(new BookSample(new BookSampleId("B2"),false,BookSampleState.FREE,new BookId("2")));
 
 
         if (bookRepository.findAll().size()==0) {

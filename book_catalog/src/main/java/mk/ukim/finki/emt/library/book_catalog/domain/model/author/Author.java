@@ -10,7 +10,7 @@ import javax.persistence.Version;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="author")
+@Table(name="authors")
 @Where(clause = "deleted=false")
 public class Author extends AbstractEntity<AuthorId> {
 

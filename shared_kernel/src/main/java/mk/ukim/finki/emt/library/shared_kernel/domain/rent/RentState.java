@@ -15,9 +15,10 @@ import java.util.Objects;
 @Getter
 public class RentState implements ValueObject {
 
-    private boolean isRented;
+    private final boolean isRented;
 
     public RentState() {
+        isRented=false;
     }
 
     private RentState(boolean isRented) {

@@ -2,7 +2,6 @@ package mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample;
 
 import mk.ukim.finki.emt.library.book_catalog.domain.model.book.BookId;
 import mk.ukim.finki.emt.library.shared_kernel.domain.base.AbstractEntity;
-import mk.ukim.finki.emt.library.shared_kernel.domain.rent.RentState;
 import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
@@ -15,33 +14,33 @@ public class BookSample extends AbstractEntity<BookSampleId> {
     private Long version;
 
     @Embedded
-    @AttributeOverride(name="id",column = @Column(name="book_id",nullable = false))
+    @AttributeOverride(name="id",column = @Column(name="bookid",nullable = false))
     private BookId bookId;
 
     private boolean deleted;
 
-    @Embedded
-    private RentState rentState;
+    @Enumerated(EnumType.STRING)
+    private BookSampleState bookSampleState;
 
     public BookSample(){}
 
-    public BookSample(BookSampleId id, boolean deleted, RentState rentState, BookId bookId) {
+    public BookSample(BookSampleId id, boolean deleted, BookSampleState bookSampleState, BookId bookId) {
         super(id);
         this.deleted = deleted;
-        this.rentState = rentState;
+        this.bookSampleState = bookSampleState;
         this.bookId = bookId;
     }
 
     public void makeRent(){
-        if(rentState.isRented())
+        if(bookSampleState.equals(BookSampleState.OCCUPIED))
             throw new IllegalArgumentException("Sample is already rented, you can't rent it until it's returned");
-        rentState = RentState.newRent();
+        bookSampleState = BookSampleState.OCCUPIED;
     }
 
     public void returnRent(){
-        if(!rentState.isRented())
+        if(bookSampleState.equals(BookSampleState.FREE))
             throw new IllegalArgumentException("Sample is already returned, you can't return until you rent it");
-        rentState = RentState.returnedRent();
+        bookSampleState = BookSampleState.FREE;
     }
 
     public void delete(){

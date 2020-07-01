@@ -3,6 +3,8 @@ package mk.ukim.finki.emt.library.users;
 import lombok.RequiredArgsConstructor;
 import mk.ukim.finki.emt.library.shared_kernel.domain.geo.Address;
 import mk.ukim.finki.emt.library.shared_kernel.domain.fullName.FullName;
+import mk.ukim.finki.emt.library.shared_kernel.domain.geo.CityName;
+import mk.ukim.finki.emt.library.shared_kernel.domain.geo.CountryName;
 import mk.ukim.finki.emt.library.users.domain.model.user.User;
 import mk.ukim.finki.emt.library.users.domain.model.user.UserId;
 import mk.ukim.finki.emt.library.users.domain.repository.UsersRepository;
@@ -25,10 +27,16 @@ public class DataCreator {
         //User user2 = new User(new UserId("2"), FullName.valueOf("Viktor", "Avramovski"), Address.valueOf("N. Macedonia", "Skopje", "Konstantin Petkovikj", 24));
         User user1 = registerUser(new UserId("1"),
                 FullName.valueOf("Jovan", "Velkovski"),
-                Address.valueOf("N. Macedonia", "Skopje", "Gazi Baba", "Spiro Crne", 34));
+                Address.valueOf(new CountryName("N. Macedonia"),
+                        new CityName("Skopje"),
+                        "Spiro Crne",
+                        34));
         User user2 = registerUser(new UserId("2"),
                 FullName.valueOf("Viktor", "Avramovski"),
-                Address.valueOf("N. Macedonia", "Skopje", "Gazi Baba", "Konstantin Petkovikj", 24));
+                Address.valueOf(new CountryName("N. Macedonia"),
+                        new CityName("Skopje"),
+                        "Konstantin Petkovikj",
+                        24));
         usersRepository.save(user1);
         usersRepository.save(user2);
 

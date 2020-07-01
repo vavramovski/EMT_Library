@@ -5,5 +5,7 @@ import mk.ukim.finki.emt.library.book_catalog.domain.model.bookSample.BookSample
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookSamplesRepository extends JpaRepository<BookSample, BookSampleId> {
+
+
 }
 
