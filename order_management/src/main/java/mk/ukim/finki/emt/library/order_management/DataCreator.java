@@ -34,10 +34,10 @@ public class DataCreator {
                 new UserId("2"));
 
 
-        rentsRepository.save(rent1);
-        rentsRepository.save(rent2);
-        rent1.endRent();
-        rentsRepository.save(rent1);
+//        rentsRepository.save(rent1);
+//        rentsRepository.save(rent2);
+//        rent1.endRent();
+//        rentsRepository.save(rent1);
 
     }
 
